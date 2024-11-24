@@ -1,28 +1,21 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 import './Nav.css';
 
 const Nav = () => {
   return (
-    <div>
-        <header className='header'>
-            <a href ="#" className='logo'>Porfolio</a>
+    <header className='header'>
+      <h1 className='logo'>Portfolio</h1>
+      <i className='bx bx-menu' id="menu-icon"></i>
+      <nav className='navbar'>
+        <Link to="/" className="active">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/services">Services</Link>
+        <Link to="/projects">Projects</Link>
+        <Link to="/contact">Contact</Link>
+      </nav>
+    </header>
+  );
+};
 
-            <i class='bx bx-menu' id="menu-icon"></i>
-
-                <nav className='navbar'>
-                    <a href="#" class="active">Home</a>
-                    <a href="#">About</a>
-                    <a href="#"> Services</a>
-                    <a href="#">Projects</a>
-                    <a href="#"Contact ></a>
-
-                </nav>
-            
-
-        </header>
-
-    </div>
-  )
-}
-
-export default Nav
+export default Nav;

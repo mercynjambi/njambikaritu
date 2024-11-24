@@ -1,6 +1,7 @@
 import React from 'react'
 import njambi2 from './assets/njambi2.jpg';
 import './About.css'
+import karitu from './assets/karitu.jpg'
 
 const About = () => {
   return (
@@ -8,7 +9,7 @@ const About = () => {
         <section  className="about" id="about">
 
             <div className='about-img'>
-                <img src={njambi2.jpg} alt="about"/>
+                <img src={karitu} alt="about"/>
             </div>
             <div className='about-content'>
                 <h2 className="heading"> About <span> Me</span></h2>
