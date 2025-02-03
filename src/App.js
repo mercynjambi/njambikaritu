@@ -1,34 +1,35 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Nav from './components/Nav';
-import Home from './components/Home';
-import About from './components/About';
-import Services from './components/Services';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero"
+import About from "./components/About/About";
+import Portfolio from "./components/Portfolio/Portfolio"; 
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
+import ProjectDetails  from './components/Portfolio/ProjectDetails'; 
+// import { ProjectDetails } from './ProjectDetails';
+// import { ProjectCard } from './ProjectCard';
+
+
 
 function App() {
   return (
     <Router>
-      <Nav />
-      <Routes> 
-        {/* This will render all components when you're at the root route "/" */}
-        <Route path="/" element={
-          <>
-            <Home />
-            <About />
-            <Services />
-            <Projects />
-            <Contact />
-          </>
-        } />
-        <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-      <Footer />
+      <div>
+        <Navbar />
+        <Hero/>
+        <About/>
+        <Portfolio/>
+        <Contact/>
+        <Footer/>
+        <Routes>
+          <Route path="/" element={<Hero />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/project/:id" element={<ProjectDetails />} />
+        </Routes>
+      </div>
     </Router>
   );
 }

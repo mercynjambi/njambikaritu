@@ -1,0 +1,90 @@
+/* Portfolio Section */
+.portfolio {
+    padding: 5rem 0;
+    background: linear-gradient(135deg, #1a1033 0%, #1f2937 100%);
+    min-height: 100vh;
+  }
+  
+  .portfolio-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  /* Header */
+  .portfolio-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .portfolio-header h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    background: linear-gradient(90deg, #8B5CF6 0%, #6366F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1rem;
+  }
+  
+  .portfolio-header p {
+    color: #9CA3AF;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Tabs */
+  .portfolio-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    flex-wrap: nowrap;
+  }
+  
+  .tab-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.75rem;
+    background: rgba(30, 41, 59, 0.5);
+    border: 1px solid transparent;
+     color: #9CA3AF;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    flex: 1; /* Allow buttons to grow and shrink equally */
+    min-width: 0; /* Allow buttons to shrink below their content width */
+    text-align: center;
+    justify-content: center;
+   
+  }
+  
+  .tab-button:hover {
+    background: rgba(139, 92, 246, 0.1);
+    border-color: rgba(139, 92, 246, 0.2);
+  }
+  
+  .tab-button.active {
+    background: #8B5CF6;
+    color: white;
+  }
+  
+  .tab-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  
+  @media (max-width: 480px) {
+    .portfolio {
+      padding: 3rem 0;
+    }
+  
+    .portfolio-container {
+      padding: 0 1rem;
+    }
+  
+    .tab-button {
+      padding: 0.5rem; /* Further reduce padding for very small screens */
+      font-size: 0.75rem; /* Further reduce font size for very small screens */
+    }
+  }
