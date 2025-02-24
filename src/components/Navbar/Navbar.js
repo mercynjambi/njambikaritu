@@ -71,57 +71,65 @@
 //   );
 // };
 
-// export default Navbar;     
 
-// Navbar.js
-import React, { useState } from "react";
+// THIS ONE
+import React, { useState, useEffect, useRef } from "react";
+import "./Navbar.css";
+import { NavLink, useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
-import "./Navbar.css";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  // Smooth scroll to section
-  const scrollToSection = (id) => {
-    const section = document.getElementById(id);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-    }
-    setIsMenuOpen(false); // Close the mobile menu after clicking a link
-  };
+  // Close menu when route changes
+  useEffect(() => {
+    setIsMenuOpen(false);
+  }, [location]);
 
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <a href="#home" className="logo-text" onClick={() => scrollToSection("home")}>
-          DevDiva.
-        </a>
+        <NavLink to="/" className="logo-text">DevDiva.</NavLink>
       </div>
       <ul className={`navbar-links ${isMenuOpen ? "active" : ""}`}>
         <li>
-          <a href="#home" onClick={() => scrollToSection("home")}>
+          <NavLink 
+            to="/#hero" 
+            className={({ isActive }) => isActive ? "active" : ""}
+            end
+          >
             Home
-          </a>
+          </NavLink>
         </li>
         <li>
-          <a href="#about" onClick={() => scrollToSection("about")}>
+          <NavLink 
+            to="/#about" 
+            className={({ isActive }) => isActive ? "active" : ""}
+          >
             About
-          </a>
+          </NavLink>
         </li>
         <li>
-          <a href="#portfolio" onClick={() => scrollToSection("portfolio")}>
+          <NavLink 
+            to="/#portfolio" 
+            className={({ isActive }) => isActive ? "active" : ""}
+          >
             Portfolio
-          </a>
+          </NavLink>
         </li>
         <li>
-          <a href="#contact" onClick={() => scrollToSection("contact")}>
+          <NavLink 
+            to="/#contact" 
+            className={({ isActive }) => isActive ? "active" : ""}
+          >
             Contact
-          </a>
+          </NavLink>
         </li>
       </ul>
       <button
@@ -139,3 +147,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

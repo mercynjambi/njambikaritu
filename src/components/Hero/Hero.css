@@ -216,12 +216,21 @@
 
 /* Responsive Design */
 @media (max-width: 1024px) {
+
+  .hero-container {
+    margin-top: 30px;
+  }
   .hero-title {
       font-size: 3.5rem;
   }
 }
 
 @media (max-width: 768px) {
+
+  .hero-container {
+    margin-top: 30px;
+  }
+
   .hero-content {
       flex-direction: column;
       text-align: left;
@@ -237,7 +246,7 @@
   .hero-image {
       order: 2;
       text-align: center;
-      width: 100%; /* Full width on smaller screens */
+      width: 80%; /* Full width on smaller screens */
   }
 
   .ready-badge {
@@ -262,7 +271,9 @@
 }
 
 @media (max-width: 480px) {
+  
   .hero-container {
+    margin-top: 30px;
       padding: 3rem 1rem;
   }
 
@@ -270,6 +281,11 @@
       font-size: 2.5rem;
   }
 
+  .hero-image {
+    order: 2;
+    text-align: center;
+    width: 60%; /* Full width on smaller screens */
+}
   .cta-buttons {
       flex-direction: column;
   }
