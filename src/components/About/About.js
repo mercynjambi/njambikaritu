@@ -43,7 +43,7 @@ const About = () => {
                 Download CV
               </button>
               {/* Use Link for internal navigation */}
-              <Link to="/projects" className="btn-secondary">
+              <Link to="/portfolio" className="btn-secondary">
                 <ExternalLink className="icon" />
                 View Projects
               </Link>
@@ -63,7 +63,7 @@ const About = () => {
               <p className="stat-sublabel">Innovative web solutions crafted</p>
             </div>
             {/* Use Link for internal navigation */}
-            <Link to="/projects" className="stat-arrow" aria-label="View details">
+            <Link to="/portfolio" className="stat-arrow" aria-label="View details">
               <ExternalLink />
             </Link>
           </div>
@@ -78,7 +78,7 @@ const About = () => {
               <p className="stat-sublabel">Professional skills validated</p>
             </div>
             {/* Use Link for internal navigation */}
-            <Link to="/projects" className="stat-arrow" aria-label="View details">
+            <Link to="/portfolio" className="stat-arrow" aria-label="View details">
               <ExternalLink />
             </Link>
           </div>
@@ -93,7 +93,7 @@ const About = () => {
               <p className="stat-sublabel">Continuous learning journey</p>
             </div>
             {/* Use Link for internal navigation */}
-            <Link to="/projects" className="stat-arrow" aria-label="View details">
+            <Link to="/portfolio" className="stat-arrow" aria-label="View details">
               <ExternalLink />
             </Link>
           </div>

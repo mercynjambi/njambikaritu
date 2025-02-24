@@ -54,7 +54,7 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="cta-buttons">
-              <Link to="/projects" className="cta-button primary">
+              <Link to="/portfolio" className="cta-button primary">
                 Projects
                 <Rocket className="button-icon" />
               </Link>
