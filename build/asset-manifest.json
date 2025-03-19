@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/njambikaritu/static/css/main.0bb2f5d4.css",
+    "main.js": "/njambikaritu/static/js/main.8fea7709.js",
+    "static/media/Coding.gif": "/njambikaritu/static/media/Coding.db93fefa489ee714503d.gif",
+    "static/media/Photo.png": "/njambikaritu/static/media/Photo.b143b535d3d4b6d3b1f0.png",
+    "static/media/cert1.jpg": "/njambikaritu/static/media/cert1.417bf830a0e5d1999ff6.jpg",
+    "static/media/cert3.jpg": "/njambikaritu/static/media/cert3.1f7224c01a06a72d927c.jpg",
+    "static/media/cert2.jpg": "/njambikaritu/static/media/cert2.80f6d94028972aad8da7.jpg",
+    "index.html": "/njambikaritu/index.html",
+    "main.0bb2f5d4.css.map": "/njambikaritu/static/css/main.0bb2f5d4.css.map",
+    "main.8fea7709.js.map": "/njambikaritu/static/js/main.8fea7709.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bb2f5d4.css",
+    "static/js/main.8fea7709.js"
+  ]
+}

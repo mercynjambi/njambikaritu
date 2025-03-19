@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import { BrowserRouter as Router, Route, Routes, useLocation } from "react-router-dom";
+import { HashRouter as Router, Route, Routes, useLocation } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero"
 import About from "./components/About/About";
