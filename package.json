@@ -4,6 +4,7 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+        "semver": "^7.6.0",
         "@babel/core": "7.24.0",
         "@babel/types": "7.23.0",
         "@fortawesome/free-solid-svg-icons": "^6.7.2",
@@ -49,7 +50,7 @@
         "autoprefixer": "^10.4.20",
         "gh-pages": "^6.3.0",
         "postcss": "^8.5.1",
-        "react-scripts": "5.0.1",
-        "semver": "^7.6.0"
+        "react-scripts": "5.0.1"
+        
     }
 }
