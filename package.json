@@ -4,9 +4,6 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
-        "resolutions": {
-"semver": "7.6.0"
-       },
         "@babel/core": "7.24.0",
         "@babel/types": "7.23.0",
         "@fortawesome/free-solid-svg-icons": "^6.7.2",
@@ -23,10 +20,9 @@
     },
     "scripts": {
         "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
-         "postinstall": "patch-package",
+        "postinstall": "patch-package",
         "predeploy": "npm run build",
         "start": "react-scripts start",
-
         "test": "react-scripts test",
         "deploy": "gh-pages -d build",
         "eject": "react-scripts eject"
@@ -54,6 +50,6 @@
         "gh-pages": "^6.3.0",
         "postcss": "^8.5.1",
         "react-scripts": "5.0.1",
-        "semver": "7.6.0"
+        "semver": "^7.6.0"
     }
 }
