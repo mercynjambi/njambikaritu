@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Code, User, Blocks } from 'lucide-react';
 import { ProjectCard } from './ProjectCard';
-import { ProjectDetails } from './ProjectDetails';
 import Certificate from './Certificate';
 import TechStack from './TechStack';
 import './Portfolio.css';

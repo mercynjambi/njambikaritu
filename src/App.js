@@ -8,7 +8,7 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import ProjectDetails  from './components/Portfolio/ProjectDetails'; 
 
-function App() {
+const App = () => {
   const heroRef = useRef(null);
   const aboutRef = useRef(null);
   const portfolioRef = useRef(null);
@@ -55,8 +55,4 @@ function App() {
   );
 }
 
-export default () => (
-  <Router>
-    <App />
-  </Router>
-);
+export default App;
