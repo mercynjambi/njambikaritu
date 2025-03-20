@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import { HashRouter as Router, Route, Routes, useLocation } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, useLocation } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero"
 import About from "./components/About/About";
@@ -8,7 +8,7 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import ProjectDetails  from './components/Portfolio/ProjectDetails'; 
 
-const App = () =>{
+function App(){
   const heroRef = useRef(null);
   const aboutRef = useRef(null);
   const portfolioRef = useRef(null);
@@ -55,8 +55,10 @@ const App = () =>{
   );
 }
 
-export default () => (
+const AppWrapper = () => (
   <Router>
     <App />
   </Router>
 );
+
+export default AppWrapper;
