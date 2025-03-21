@@ -52,28 +52,37 @@ function ProjectDetails() {
           </div>
 
           <div className="project-actions">
-            <a href={project.demoUrl} className="action-button demo-btn">
-              <ExternalLink size={20} />
-              Live Demo
-            </a>
-              
-                    {project.githubUrl ? (
-          <a href={project.githubUrl} 
-            className="action-button github-btn" 
-            target="_blank" 
-            rel="noopener noreferrer">
-            <Github size={20} />
-            Github
-          </a>
-        ) : (
-          <button className="action-button github-btn" disabled>
-            <Github size={20} />
-            Github
-          </button>
-        )}
+  {project.demoUrl ? (
+    <a href={project.demoUrl} 
+       className="action-button demo-btn" 
+       target="_blank" 
+       rel="noopener noreferrer">
+      <ExternalLink size={20} />
+      Live Demo
+    </a>
+  ) : (
+    <button className="action-button demo-btn" disabled>
+      <ExternalLink size={20} />
+      Live Demo
+    </button>
+  )}
 
+  {project.githubUrl ? (
+    <a href={project.githubUrl} 
+       className="action-button github-btn" 
+       target="_blank" 
+       rel="noopener noreferrer">
+      <Github size={20} />
+      Github
+    </a>
+  ) : (
+    <button className="action-button github-btn" disabled>
+      <Github size={20} />
+      Github
+    </button>
+  )}
+</div>
 
-          </div>
 
           <div className="technologies-section">
             <h2 className="section-title">
