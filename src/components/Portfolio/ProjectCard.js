@@ -9,6 +9,7 @@ export const projects = [
     description: "Program ini dirancang untuk mempermudah pengguna dalam menyelesaikan soal-soal Aritmatika secara otomatis.",
     image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80",
     demoUrl: "https://github.com/mercynjambi/njambikaritu",
+    githubUrl: "https://github.com/mercynjambi/njambikaritu",
     features: [
       "Menyelesaikan soal aritmatika otomatis",
       "Dukungan untuk berbagai operasi matematika",
@@ -22,6 +23,7 @@ export const projects = [
     description: "AutoChat adalah solusi otomatisasi untuk mengirim pesan ke saluran Discord secara terjadwal.",
     image: "https://images.unsplash.com/photo-1614680376593-902f74cf0d41?auto=format&fit=crop&q=80",
     demoUrl: "https://github.com/mercynjambi/njambikaritu",
+    githubUrl: "https://github.com/mercynjambi/njambikaritu",
     features: [
       "Pengiriman pesan otomatis",
       "Integrasi dengan bot Discord",
@@ -35,6 +37,7 @@ export const projects = [
     description: "Aplikasi manajemen tugas dengan fitur kolaborasi tim dan pelacakan waktu.",
     image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80",
     demoUrl: "https://github.com/mercynjambi/njambikaritu",
+    githubUrl: "https://github.com/mercynjambi/njambikaritu",
     features: [
       "Kolaborasi tim",
       "Pelacakan waktu",
