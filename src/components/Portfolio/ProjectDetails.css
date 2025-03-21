@@ -32,7 +32,7 @@
   border-radius: 8px;
   text-decoration: none;
   color: white;
-  transition: background 0.3s;
+  transition:  0.3s;
 }
 
 .back-button:hover {
@@ -159,6 +159,8 @@
   pointer-events: none;
   cursor: default;
 }  
+
+
 
 
 .technologies-section {

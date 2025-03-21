@@ -54,29 +54,33 @@ function ProjectDetails() {
           
           <div className="project-actions">
           <a
-  href={project.demoUrl || '#'} // Or 'javascript:void(0)'
+  href={project.demoUrl ? project.demoUrl : undefined}
   className={`action-button demo-btn ${!project.demoUrl ? 'disabled' : ''}`}
-  target="_blank"
-  rel="noopener noreferrer"
+  target={project.demoUrl ? "_blank" : undefined}
+  rel={project.demoUrl ? "noopener noreferrer" : undefined}
   aria-disabled={!project.demoUrl}
-  tabIndex={project.demoUrl ? 0 : -1} // Ensure it's not focusable when disabled
+  tabIndex={project.demoUrl ? 0 : -1}
+  onClick={(e) => !project.demoUrl && e.preventDefault()} // Prevent navigation if no URL
 >
   <ExternalLink size={20} />
   Live Demo
 </a>
 
 <a
-  href={project.githubUrl || '#'} // Or 'javascript:void(0)'
+  href={project.githubUrl ? project.githubUrl : undefined}
   className={`action-button github-btn ${!project.githubUrl ? 'disabled' : ''}`}
-  target="_blank"
-  rel="noopener noreferrer"
+  target={project.githubUrl ? "_blank" : undefined}
+  rel={project.githubUrl ? "noopener noreferrer" : undefined}
   aria-disabled={!project.githubUrl}
   tabIndex={project.githubUrl ? 0 : -1}
+  onClick={(e) => !project.githubUrl && e.preventDefault()} // Prevent navigation if no URL
 >
   <Github size={20} />
   Github
 </a>
-            </div>
+
+            
+          </div>
  
 
 

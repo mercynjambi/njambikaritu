@@ -1,6 +1,5 @@
 {
-    "name": "njambikaritu",
-    "homepage": "https://mercynjambi.github.io/njambikaritu",
+    "name": "njambikaritu",  
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -18,7 +17,7 @@
         "react-router-dom": "^6.30.0",
         "react-scripts": "5.0.1",
          "semver": "7.6.0",
-         
+
         "react-scroll": "^1.9.3",
         
         "typewriter-effect": "^2.21.0"
