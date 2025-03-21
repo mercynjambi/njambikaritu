@@ -56,13 +56,22 @@ function ProjectDetails() {
               <ExternalLink size={20} />
               Live Demo
             </a>
-            <a href={project.githubUrl ? project.githubUrl : "#"} 
-   className="action-button github-btn" 
-   target="_blank" 
-   rel="noopener noreferrer">
-   <Github size={20} />
-   Github
-</a>
+              
+                    {project.githubUrl ? (
+          <a href={project.githubUrl} 
+            className="action-button github-btn" 
+            target="_blank" 
+            rel="noopener noreferrer">
+            <Github size={20} />
+            Github
+          </a>
+        ) : (
+          <button className="action-button github-btn" disabled>
+            <Github size={20} />
+            Github
+          </button>
+        )}
+
 
           </div>
 
