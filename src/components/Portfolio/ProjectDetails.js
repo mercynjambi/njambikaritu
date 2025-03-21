@@ -56,7 +56,7 @@ function ProjectDetails() {
               <ExternalLink size={20} />
               Live Demo
             </a>
-            <a href="#" className="action-button github-btn">
+            <a href="#"  role="button" className="action-button github-btn">
               <Github size={20} />
               Github
             </a>
