@@ -51,6 +51,7 @@ function ProjectDetails() {
             </div>
           </div>
 
+          
           <div className="project-actions">
   {project.demoUrl ? (
     <a href={project.demoUrl} 
