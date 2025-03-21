@@ -1,5 +1,6 @@
 .project-details-container {
   min-height: 100vh;
+ 
   background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
   color: white;
   padding: 2rem;
@@ -7,7 +8,7 @@
   width:100%;
   max-width: 1100px;
   
-  margin: 0 auto; /* Center the container */
+  margin : 0 auto; /* Center the container */
 }
 
 .project-details-left hr{
@@ -19,6 +20,7 @@
 .project-details-nav {
   display: flex;
   align-items: center;
+  margin-top: 60px;
   gap: 1rem;
   margin-bottom: 3rem;
 }
