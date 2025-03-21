@@ -53,36 +53,31 @@ function ProjectDetails() {
 
           
           <div className="project-actions">
-  {project.demoUrl ? (
-    <a href={project.demoUrl} 
-       className="action-button demo-btn" 
-       target="_blank" 
-       rel="noopener noreferrer">
-      <ExternalLink size={20} />
-      Live Demo
-    </a>
-  ) : (
-    <button className="action-button demo-btn" disabled>
-      <ExternalLink size={20} />
-      Live Demo
-    </button>
-  )}
+          <a
+  href={project.demoUrl || '#'} // Or 'javascript:void(0)'
+  className={`action-button demo-btn ${!project.demoUrl ? 'disabled' : ''}`}
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-disabled={!project.demoUrl}
+  tabIndex={project.demoUrl ? 0 : -1} // Ensure it's not focusable when disabled
+>
+  <ExternalLink size={20} />
+  Live Demo
+</a>
 
-  {project.githubUrl ? (
-    <a href={project.githubUrl} 
-       className="action-button github-btn" 
-       target="_blank" 
-       rel="noopener noreferrer">
-      <Github size={20} />
-      Github
-    </a>
-  ) : (
-    <button className="action-button github-btn" disabled>
-      <Github size={20} />
-      Github
-    </button>
-  )}
-</div>
+<a
+  href={project.githubUrl || '#'} // Or 'javascript:void(0)'
+  className={`action-button github-btn ${!project.githubUrl ? 'disabled' : ''}`}
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-disabled={!project.githubUrl}
+  tabIndex={project.githubUrl ? 0 : -1}
+>
+  <Github size={20} />
+  Github
+</a>
+            </div>
+ 
 
 
           <div className="technologies-section">

@@ -142,6 +142,7 @@
   transform: translateY(-2px);
 }
 
+
 .demo-btn {
   background: #64ffda;
   color: #0f0c29;
@@ -151,6 +152,14 @@
   background: rgba(255, 255, 255, 0.1);
   color: white;
 }
+
+
+.action-button.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: default;
+}  
+
 
 .technologies-section {
   margin-top: 2rem;
