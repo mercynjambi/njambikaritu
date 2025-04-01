@@ -29,9 +29,10 @@ const Hero = () => {
               <Typewriter
                 options={{
                   strings: [
-                    "BSc Student",
-                    "I love Tech",
-                    "Tech Enthusiast"
+                    "Mercy Njambi | Statistics Student | Software Developer | ML & Data Enthusiast",
+                    "Exploring the Intersection of Statistics, AI, and Web Development.",
+                    "Turning Data into Insights, Code into Innovation.",
+                    "Let's Code, Analyze, and Innovate Together!"
                   ],
                   autoStart: true,
                   loop: true,
@@ -41,7 +42,7 @@ const Hero = () => {
 
             {/* Description */}
             <p className="hero-description">
-              I love coding, I love coding, I love coding... I love coding
+            Empowering innovation through cutting-edge technologies and data-driven solutions.
             </p>
 
             {/* Tech Stack */}

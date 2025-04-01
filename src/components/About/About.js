@@ -31,10 +31,11 @@ const About = () => {
             </div>
 
             <p className="profile-description">
-              seorang siswa Teknik Jaringan Komputer dan Telekomunikasi yang 
-              tertarik dalam pengembangan Front-End. Saya berfokus pada 
-              menciptakan pengalaman digital yang menarik dan selalu berusaha 
-              memberikan solusi terbaik dalam setiap proyek.
+            I am Mercy Njambi, a passionate fourth-year Statistics student at the University of Nairobi (UoN) with a strong enthusiasm for software development, machine learning, data analysis, and visualization. My academic journey has been a deep dive into the world of data science, predictive modeling, and statistical computing, equipping me with a solid foundation in data-driven problem-solving.I specialize in React.js for frontend development, leveraging its component-based architecture to build dynamic, scalable, and efficient web applications. On the backend, I work extensively with Django, ensuring seamless integration between data processing and application logic. My love for machine learning drives me to explore data preprocessing, model training, and algorithm optimization, utilizing Python, TensorFlow, Pandas, and NumPy to extract meaningful insights and build intelligent systems.
+
+Beyond coding, I am a firm believer in continuous learning and innovation. The tech industry is ever-evolving, and I embrace every opportunity to hone my skills, explore new technologies, and collaborate on impactful projects. With a deep passion for problem-solving and tech-driven solutions, I am eager to contribute to transformative innovations and create meaningful digital experiences.
+
+Let’s connect and build something extraordinary together! 🚀
             </p>
 
             <div className="profile-actions">
