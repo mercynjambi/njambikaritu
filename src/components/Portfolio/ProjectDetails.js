@@ -37,7 +37,7 @@ function ProjectDetails() {
               <div className="stat-icon">{'</>'}</div>
               <div className="stat-info">
                 <span className="stat-number">{project.technologies.length}</span>
-                <span className="stat-label">Total Teknologi</span>
+                <span className="stat-label">Total Technologies</span>
               </div>
             </div>
             <div className="stat-box">
@@ -46,7 +46,7 @@ function ProjectDetails() {
               </div>
               <div className="stat-info">
                 <span className="stat-number">{project.features.length}</span>
-                <span className="stat-label">Fitur Utama</span>
+                <span className="stat-label"> Key Features</span>
               </div>
             </div>
           </div>
