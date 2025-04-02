@@ -72,15 +72,23 @@
 /* Menu Icon */
 .navbar-menu {
   display: none;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   cursor: pointer;
-  background-color: transparent;
+  background-color: transparent !important;
+  padding: 0.5rem;
+  /* left:0; */
+  margin-left: auto; 
+}
+
+.navbar-menu:hover {
+  background: none !important; 
 }
 
 .navbar-menu .menu-icon, .navbar-menu .close-icon {
   color: #fff;
-  font-size: 2rem;
-  background: transparent;
+  font-size: 2.5rem;
+  background: none !important;
+  padding: 0.5rem;
 }
 
 /* Mobile Styles */
