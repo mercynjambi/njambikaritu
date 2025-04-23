@@ -7,6 +7,7 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import ProjectDetails  from './components/Portfolio/ProjectDetails'; 
+import { Analytics } from "@vercel/analytics/react"
 
 function App(){
   const heroRef = useRef(null);
