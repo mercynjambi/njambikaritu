@@ -5,19 +5,19 @@ import './ProjectCard.css';
 export const projects = [
   {
     id: 1,
-    title: "Academi",
-    description: "A comprehensive school management system that enables students, teachers, and parents to interact seamlessly. It offers features like real-time grade tracking, class schedule management, and assignment submission, empowering each role with personalized access and communication tools.",
-    image: "https://plus.unsplash.com/premium_photo-1682284353484-4e16001c58eb?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c2Nob29sfGVufDB8fDB8fHww",
-    demoUrl: "https://github.com/mercynjambi/njambikaritu",
-    githubUrl: "https://github.com/mercynjambi/academi",
+    title: "QuickStay",
+    description: " This application allows users to browse, book, and manage hotel reservations.It features secure user authentication, real-time hotel listings with filtering options, and a dynamic booking management system ",
+    image: "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aG90ZWxzfGVufDB8fDB8fHww",
+    demoUrl: "https://booking-system-two-wine.vercel.app/",
+    githubUrl: "https://github.com/mercynjambi/booking-system",
     features: [
-      "Role-based access for teachers, students, and parents",
-      "Real-time grade tracking and progress monitoring",
-      "Class schedule management",
+      "User Authentication & Authorization",
+      "Dynamic Hotel Listings",
+      "Booking Management System",
 
       
     ],
-    technologies: [ "React", "Django"]
+    technologies: [ "React", "Tailwind", "Clerk", "MomgoDB", "Express Js"]
   },
   {
     id: 2,
@@ -27,9 +27,9 @@ export const projects = [
     demoUrl: "https://github.com/mercynjambi/njambikaritu",
     githubUrl: "https://github.com/mercynjambi/tubonge",
     features: [
-      "Pengiriman pesan otomatis",
-      "Integrasi dengan bot Discord",
-      "Penjadwalan fleksibel"
+      "Real-Time Messaging",
+      "User Authentication",
+      "Chat History Persistence"
     ],
     technologies: ["React",  "Firebase"]
   },
@@ -38,8 +38,8 @@ export const projects = [
     title: "Harmony hub",
     description: "This is a music app built using React.js. It allows users to search for songs and listen to music.",
     image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80",
-    demoUrl: "https://github.com/mercynjambi/njambikaritu",
-    githubUrl: "https://github.com/nezhprodigy/harmony-hub",
+    demoUrl: "https://harmony-hub-six.vercel.app/",
+    githubUrl: "https://github.com/mercynjambi/harmony-hub",
     features: [
       "Search for songs by title or artist",
       "Listen to music on-demand",
@@ -49,7 +49,7 @@ export const projects = [
   },
 
   {
-    "id": 2,
+    "id": 4,
     "title": "Tabibu",
     "description": "A full-stack Doctor Appointment Booking system built with React, Django, MongoDB, and Express. This project allows patients to book appointments, doctors to manage their appointments and earnings, and admins to manage appointments and doctor profiles.",
     "image": "https://plus.unsplash.com/premium_photo-1681966826227-d008a1cfe9c7?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RE9DVE9SU3xlbnwwfHwwfHx8MA%3D%3D",
@@ -64,21 +64,39 @@ export const projects = [
     ],
     "technologies": ["React", "Django", "MongoDB"]
   },
+
+ {
+  "id": 5,
+  "title": "SmartMeal AI",
+  "description": "A full-stack AI-powered Meal Plan Generator built with React and Flask. This application creates personalized meal plans for breakfast, lunch, and dinner based on the user's age, height, weight, health conditions, and location. It aims to promote healthier eating habits through customized, geo-relevant nutrition recommendations.",
+  "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=1000",
+  "demoUrl": "https://github.com/mercynjambi/smartmeal-ai",
+  "githubUrl": "https://github.com/mercynjambi/SmartMeal",
+  "features": [
+    "Personalized meal plan generation using AI",
+    "Inputs include age, height, weight, health condition, preferences, and location",
+    "Downloadable meal plan in PDF format",
+    "Local storage support for saving previous meal plans",
+    "Responsive and modern UI built with Tailwind CSS",
+    "Expandable to include grocery lists, nutritional analysis, or calorie tracking"
+  ],
+  "technologies": ["React", "Flask", "OpenAI API", "Tailwind CSS"]
+}
   
-  {
-    id: 4,
-    title: "My Little Thing",
-    description: "A community-based organization aiming to empower marginalized young women through entrepreneurship and support for teen and young mothers.",
-    image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80",
-    demoUrl: "https://littlethings-omega.vercel.app/",
-    githubUrl: "https://github.com/mercynjambi/littlethings",
-    features: [
-      "Kolaborasi tim",
-      "Pelacakan waktu",
-      "Notifikasi tugas"
-    ],
-    technologies: ["React"]
-  }
+  // {
+  //   id: 4,
+  //   title: "My Little Thing",
+  //   description: "A community-based organization aiming to empower marginalized young women through entrepreneurship and support for teen and young mothers.",
+  //   image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80",
+  //   demoUrl: "https://littlethings-omega.vercel.app/",
+  //   githubUrl: "https://github.com/mercynjambi/littlethings",
+  //   features: [
+  //     "Kolaborasi tim",
+  //     "Pelacakan waktu",
+  //     "Notifikasi tugas"
+  //   ],
+  //   technologies: ["React"]
+  // }
 
 ];
 

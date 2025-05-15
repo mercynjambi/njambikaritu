@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <NavLink to="/" className="logo-text">DevDiva.</NavLink>
+        <NavLink to="/" className="logo-text">NexaDev.</NavLink>
       </div>
       <ul className={`navbar-links ${isMenuOpen ? "active" : ""}`}>
         <li>

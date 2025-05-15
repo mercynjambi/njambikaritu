@@ -59,7 +59,7 @@ Let’s connect and build something extraordinary together! 🚀
               <Code />
             </div>
             <div className="stat-content">
-              <h3 className="stat-number">11</h3>
+              <h3 className="stat-number">6</h3>
               <p className="stat-label">TOTAL PROJECTS</p>
               <p className="stat-sublabel">Innovative web solutions crafted</p>
             </div>
@@ -74,7 +74,7 @@ Let’s connect and build something extraordinary together! 🚀
               <Award />
             </div>
             <div className="stat-content">
-              <h3 className="stat-number">7</h3>
+              <h3 className="stat-number">1</h3>
               <p className="stat-label">CERTIFICATES</p>
               <p className="stat-sublabel">Professional skills validated</p>
             </div>
@@ -89,7 +89,7 @@ Let’s connect and build something extraordinary together! 🚀
               <Globe />
             </div>
             <div className="stat-content">
-              <h3 className="stat-number">3</h3>
+              <h3 className="stat-number">1</h3>
               <p className="stat-label">YEARS OF EXPERIENCE</p>
               <p className="stat-sublabel">Continuous learning journey</p>
             </div>

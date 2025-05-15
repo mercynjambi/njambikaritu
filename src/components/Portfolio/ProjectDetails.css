@@ -147,7 +147,9 @@
 
 
 .demo-btn {
-  background: #64ffda;
+  margin-bottom:9px;
+  
+  background:  #8B5CF6;
   color: #0f0c29;
 }
 
@@ -276,6 +278,7 @@
   }
 
   .action-button {
+    margin-bottom:9px;
     flex: 1; /* Ensure buttons take equal space */
   }
 }
@@ -299,6 +302,7 @@
   }
 
   .action-button {
+    margin-bottom: 9px;
     padding: 0.5rem 1rem; /* Adjust button padding for small screens */
   }
 }
