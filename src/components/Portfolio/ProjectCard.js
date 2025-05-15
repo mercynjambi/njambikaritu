@@ -24,7 +24,7 @@ export const projects = [
     title: "Tubonge",
     description: "A chat app built with React and Firebase that allows real-time messaging and  user authentication.",
     image: "https://plus.unsplash.com/premium_photo-1721955487786-76802cbf0812?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2hhdCUyMGFwcHxlbnwwfHwwfHx8MA%3D%3D",
-    demoUrl: "https://github.com/mercynjambi/njambikaritu",
+    demoUrl: "https://tubonge-ruddy.vercel.app/",
     githubUrl: "https://github.com/mercynjambi/tubonge",
     features: [
       "Real-Time Messaging",
@@ -70,7 +70,7 @@ export const projects = [
   "title": "SmartMeal AI",
   "description": "A full-stack AI-powered Meal Plan Generator built with React and Flask. This application creates personalized meal plans for breakfast, lunch, and dinner based on the user's age, height, weight, health conditions, and location. It aims to promote healthier eating habits through customized, geo-relevant nutrition recommendations.",
   "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=1000",
-  "demoUrl": "https://github.com/mercynjambi/smartmeal-ai",
+  "demoUrl": "https://smart-meal-zeta.vercel.app/",
   "githubUrl": "https://github.com/mercynjambi/SmartMeal",
   "features": [
     "Personalized meal plan generation using AI",
