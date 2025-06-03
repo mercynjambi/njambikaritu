@@ -3,6 +3,8 @@ import { Code, Award, Globe, ExternalLink, FileDown } from 'lucide-react';
 import { Link } from 'react-router-dom'; // Import Link for internal navigation
 import './About.css';
 import Photo from "../../assets1/Photo.png";
+import mercy from "../../assets/mercy.jpg";
+
 
 const About = () => {
   return (
@@ -21,7 +23,7 @@ const About = () => {
         {/* Profile Section */}
         <div className="profile-section">
           <div className="profile-image">
-            <img src={Photo} alt="Eki Zulfar Rachman" />
+            <img src={mercy} alt="mercy profile" />
           </div>
 
           <div className="profile-content">
