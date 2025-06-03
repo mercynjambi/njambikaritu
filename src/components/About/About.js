@@ -2,7 +2,7 @@ import React from 'react';
 import { Code, Award, Globe, ExternalLink, FileDown } from 'lucide-react';
 import { Link } from 'react-router-dom'; // Import Link for internal navigation
 import './About.css';
-import Photo from "../../assets1/Photo.png";
+
 import mercy from "../../assets/mercy.jpg";
 
 
@@ -41,10 +41,18 @@ Let’s connect and build something extraordinary together! 🚀
             </p>
 
             <div className="profile-actions">
-              <button className="btn-primary">
+              {/* <button className="btn-primary">
                 <FileDown className="icon" />
                 Download CV
-              </button>
+              </button> */}
+                <a 
+    href="/cv/mercynjambikaritucv.docx" 
+    className="btn-primary"
+    download="mercynjambikaritucv.docx"
+  >
+    <FileDown className="icon" />
+    Download CV
+</a>
               {/* Use Link for internal navigation */}
               <Link to="/portfolio" className="btn-secondary">
                 <ExternalLink className="icon" />
